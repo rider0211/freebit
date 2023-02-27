@@ -1,0 +1,343 @@
+
+
+.am-item {
+    padding: 27px 20px;
+    text-align: center;
+    margin-bottom: -20px;
+    border-radius: 20px;
+    box-shadow: 1.95px 15.881px 30px 0px rgba(47, 105, 252, 0.1);
+    background-color: #ffffff;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.am-item .am-thumb {
+    height: 110px;
+    margin-bottom: 45px;
+}
+
+.am-item .am-thumb img {
+    height: 100%;
+}
+
+.am-item .am-content .title {
+    font-weight: 700;
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+    .am-item {
+        padding: 50px 20px;
+    }
+
+    .am-item .am-thumb {
+        height: 80px;
+    }
+}
+
+@media (max-width: 575px) {
+    .am-item {
+        max-width: 280px;
+        margin: 0 auto 30px;
+    }
+}
+
+.am-item:hover, .am-item.active {
+    box-shadow: 1.95px 15.881px 30px 0px rgba(47, 105, 252, 0.31);
+}
+
+
+
+.download-item {
+    margin-bottom: 3px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.download-item .thumb {
+    width: 94px;
+    height: 94px;
+    text-align: center;
+    line-height: 94px;
+    font-size: 60px;
+    color: #ffffff;
+    background: #b7b9cf;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 auto 14px;
+}
+
+.download-item .content .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.download-item:hover .thumb, .download-item.active .thumb {
+    background: #6aa9c9;
+}
+
+@media (max-width: 768px) {
+    .download-item .thumb {
+        font-size: 40px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .logo-response{
+        width: 229px !important;
+        height: auto !important;
+    }
+    .form-register .steps li, .form-register .steps li.current {
+        pointer-events: none;
+        cursor: default;
+        outline: none;
+        -o-outline: none;
+        -ms-outline: none;
+        -moz-outline: none;
+        -webkit-outline: none;
+        position: relative;
+        width: 25%;
+        text-align: center;
+    }
+    .form-register .steps {
+        margin-bottom: 0px !important;
+    }
+    .checknamepaddingtop{
+        padding-top: 7px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .download-item {
+        padding: 0 5px;
+        /* width: 50%; */
+    }
+
+    .download-item .thumb {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 30px;
+    }
+}
+a {
+    display: inline-block;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+input {
+    background: #f4f4f4;
+    border: 1px solid transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input:focus {
+    border: 1px solid #ff8a00;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #0a3d62;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0;
+}
+
+select,
+input,
+textarea {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #bccaea;
+    outline: none;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+    padding: 10px;
+}
+
+input,
+button,
+select {
+    height: 50px;
+    color: #504c89;
+}
+
+label,
+button,
+select {
+    cursor: pointer;
+}
+.padding-top {
+    padding-top: 120px;
+}
+
+.discribe:hover{
+    color:red;
+}
+.discribe{
+    cursor: pointer;
+}
+
+.number {
+    background: #3498db;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 26px;
+    float: left;
+    margin-right: 10px;
+}
+@media screen and (min-width: 992px) {
+    .checkname {
+        margin-left: -25px;
+    }
+    .download {
+        margin-left: -15px;
+    }
+    .done {
+        margin-left: 8px;
+    }
+  }
+  
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards
+}
+
+.checkmark {
+    margin-bottom: 10px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0
+    }
+}
+
+@keyframes scale {
+
+    0%,
+    100% {
+        transform: none
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1)
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #7ac142
+    }
+}
+.name-status-error{
+    color:red;
+}
+.name-status-success{
+    color:green;
+}
+
+.crossmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #ff0000;
+    fill: none;
+   animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  }
+  
+  .crossmark.animateElement {
+    margin-bottom:10px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #ff0000;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #ff0000;
+    animation: fillred .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+  }
+  
+  .crossmark__check.animateElement {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  .cross__path.animateElement {
+    stroke: #ffffff;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    transform-origin: 50% 50% 0;
+  }
+  .cross__path--right.animateElement {
+    animation: 0.3s ease 0.8s normal forwards 1 running stroke;
+  }
+  .cross__path--left.animateElement {
+    animation: 1s ease 0.8s normal forwards 1 running stroke;
+  }
+  @keyframes fillred {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px #ff0000;
+    }
+    
+  }
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
